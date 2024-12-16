@@ -151,6 +151,13 @@ function App() {
             tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
             iOS and other Apple products and services
           </div>
+          <div className="timeline-start mb-10 md:text-end">
+            <time className="font-mono italic">2015</time>
+            <div className="text-lg font-black">Apple Watch</div>
+            The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
+            tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
+            iOS and other Apple products and services
+          </div>
         </li>
       </ul>
       <Footer />
