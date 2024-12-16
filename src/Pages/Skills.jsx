@@ -98,19 +98,20 @@ const skills = [
 
 const SkillCard = ({ name, description, image }) => {
     return (
-        <div className="text-center p-6 rounded-lg bg-white shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
+        <div className="text-center p-6 rounded-lg bg-base-100 shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
             <div className="tooltip" data-tip={description}>
                 <img src={image} alt={name} className="h-16 w-16 mb-4 mx-auto" />
-                <h3 className="text-xl font-semibold text-gray-800">{name}</h3>
+                <h3 className="text-xl font-semibold text-base-content">{name}</h3>
             </div>
         </div>
     );
 };
 
+
 const Skills = () => {
     return (
         <div className="md:container md:mx-auto">
-            <h1 className="text-5xl font-bold text-center my-10 text-gray-800">Skills</h1>
+             <h1 className="text-5xl font-bold text-center my-10">Skills</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-8 px-4 sm:px-8">
                 {skills.map((skill, index) => (
                     <SkillCard

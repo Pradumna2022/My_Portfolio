@@ -7,7 +7,7 @@ function Info() {
                 <div className='md:container md:mx-auto'>
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <div className="avatar indicator">
-                            <span className="indicator-item badge badge-primary">Developer</span>
+                            {/* <span className="indicator-item badge badge-primary z-10">Developer</span> */}
                             <div className="h-80 w-80 rounded-lg">
                                 <img
                                     src={profileimage}
