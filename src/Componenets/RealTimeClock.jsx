@@ -22,8 +22,8 @@ const RealTimeClock = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center p-2 bg-neutral rounded-box text-neutral-content">
-                <span className="text-sm font-semibold">{formattedDate}</span>
+            <div className="flex flex-col items-center p-0 bg-neutral rounded-box text-neutral-content">
+                <span className="text-sm text-[5px] font-semibold">{formattedDate}</span>
                 <span className="text-lg font-mono">{formattedTime}</span>
             </div>
         </>
