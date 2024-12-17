@@ -1,5 +1,7 @@
 import React from 'react'
-import profileimage from '../assets/images/MyImage.jpg'
+// import profileimage from '../assets/images/MyImage.jpg'
+import profileimage from '../assets/images/MyImage.jpeg'
+
 
 function Info() {
     const calculateExperience = () => {
