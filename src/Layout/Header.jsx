@@ -9,17 +9,17 @@ function Header() {
             <div className="navbar bg-base-200">
                 <div className="flex-1">
                     <div className="tooltip tooltip-bottom" data-tip="Hello my name is Pradyumna">
-                        <div className="flex flex-row ">
-                            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 384 512" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg" >
+                        <div className="flex flex-row items-center">
+                            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 384 512" className="h-8 w-8 md:h-12 md:w-12 lg:h-12 lg:w-12"  xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M365.46 357.74L147.04 255.89l218.47-101.88c16.02-7.47 22.95-26.51 15.48-42.53l-13.52-29C360 66.46 340.96 59.53 324.94 67L18.48 209.91a32.014 32.014 0 0 0-18.48 29v34.24c0 12.44 7.21 23.75 18.48 29l306.31 142.83c16.06 7.49 35.15.54 42.64-15.52l13.56-29.08c7.49-16.06.54-35.15-15.53-42.64z">
                                 </path>
                             </svg>
                             <a className="btn btn-ghost text-xl">Pradumna Das</a>
-                            <svg stroke="currentColor" fill="none" strokeWidth="0" viewBox="0 0 15 15" color="#9067C6" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg">
+                            <svg stroke="currentColor" fill="none" strokeWidth="0" viewBox="0 0 15 15" color="#9067C6" className="h-8 w-8 md:h-12 md:w-12 lg:h-12 lg:w-12"  xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M4.10876 14L9.46582 1H10.8178L5.46074 14H4.10876Z" fill="currentColor">
                                 </path>
                             </svg>
-                            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 384 512"  height="40px" width="40px" xmlns="http://www.w3.org/2000/svg" >
+                            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 384 512"  className="h-8 w-8 md:h-12 md:w-12 lg:h-12 lg:w-12"  xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M365.52 209.85L59.22 67.01c-16.06-7.49-35.15-.54-42.64 15.52L3.01 111.61c-7.49 16.06-.54 35.15 15.52 42.64L236.96 256.1 18.49 357.99C2.47 365.46-4.46 384.5 3.01 400.52l13.52 29C24 445.54 43.04 452.47 59.06 445l306.47-142.91a32.003 32.003 0 0 0 18.48-29v-34.23c-.01-12.45-7.21-23.76-18.49-29.01z">
                                 </path>
                             </svg>

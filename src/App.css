@@ -1,0 +1,9 @@
+.glow-star {
+    position: relative;
+    box-shadow: 0 0 10px 2px rgba(34, 197, 94, 0.8); /* Green glow */
+    transition: box-shadow 0.3s ease;
+}
+
+.glow-star:hover {
+    box-shadow: 0 0 15px 4px rgba(34, 197, 94, 1); /* Intensify glow on hover */
+}
