@@ -30,7 +30,7 @@ const projects = [
     badges: ["Fashion", "Products"],
   },
   {
-    id: 2,
+    id: 3,
     title: "PDOT",
     description: "Pre Departure Orientation Training Online Registration Module",
     link: "http://pdot.mea.gov.in/",
@@ -59,7 +59,7 @@ function Project() {
 
   return (
     <div className="md:container md:mx-auto">
-      <h1 className="text-5xl font-bold text-center my-10">Projects</h1>
+      <h1 className="text-4xl md:text-5xl font-bold my-10">Projects</h1>
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
         {projects.map((project) => (
           <div key={project.id} className="card bg-base-100 w-full shadow-xl mb-5">
@@ -68,12 +68,11 @@ function Project() {
                 {project.images.map((image, index) => (
                   <div
                     key={index}
-                    className={`carousel-item relative w-full ${
-                      (currentSlide[project.id] || 0) === index ? "block" : "hidden"
-                    }`}
+                    className={`carousel-item relative w-full ${(currentSlide[project.id] || 0) === index ? "block" : "hidden"
+                      }`}
                   >
                     <img
-                      style={{ objectFit: "contain", width: "450px", aspectRatio: "3/2",animation:"running" }}
+                      style={{ objectFit: "contain", width: "450px", aspectRatio: "3/2", animation: "running" }}
                       src={image}
                       alt={`Slide ${index + 1}`}
                       className="w-full"
@@ -113,6 +112,7 @@ function Project() {
               <h2 className="card-title">
                 {project.title}
                 <div className="badge badge-secondary">
+
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     Link
                   </a>
