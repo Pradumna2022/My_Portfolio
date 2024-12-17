@@ -1,4 +1,5 @@
 import React from 'react'
+import Tilt from 'react-parallax-tilt';
 // import profileimage from '../assets/images/MyImage.jpg'
 import profileimage from '../assets/images/MyImage.jpeg'
 
@@ -32,13 +33,16 @@ function Info() {
                                     <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500 glow-star" defaultChecked />
                                 </div>
                             </span> */}
-                             <span className="indicator-item badge badge-primary">Developer</span>
-                            <div className="h-64 w-64 lg:h-80 lg:w-80">
-                                <img
-                                    src={profileimage}
-                                    alt="Profile"
-                                    className="max-w-full h-auto border rounded-lg shadow-xl" />
-                            </div>
+                            <span className="indicator-item badge badge-primary">Developer</span>
+                            <Tilt>
+                                <div className="h-64 w-64 lg:h-80 lg:w-80">
+                                    <img
+                                        src={profileimage}
+                                        alt="Profile"
+                                        className="max-w-full h-auto border rounded-lg shadow-xl" />
+                                </div>
+                            </Tilt>
+
                         </div>
                         {/* Text content */}
                         <div className="text-center lg:text-left">

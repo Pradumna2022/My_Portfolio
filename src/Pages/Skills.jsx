@@ -1,4 +1,5 @@
 import React from 'react';
+import Tilt from 'react-parallax-tilt';
 import csharp from "../assets/SkillsImages/c-sharp.png";
 import webApi from "../assets/SkillsImages/NET core.png";
 import CoreMvc from "../assets/SkillsImages/DotNetcoreMvc.png";
@@ -35,13 +36,17 @@ const skills = [
 
 const SkillCard = ({ name, description, image }) => {
     return (
+
         <div className="text-center p-6 rounded-lg bg-base-100 shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
             <div className="tooltip" data-tip={description}>
-                {/* Image responsiveness and containment */}
-                <img src={image} alt={name} className="h-20 w-20 object-contain mb-4 mx-auto" />
-                <h3 className="text-xl font-semibold text-base-content">{name}</h3>
+                <Tilt>
+                    {/* Image responsiveness and containment */}
+                    <img src={image} alt={name} className="h-20 w-20 object-contain mb-4 mx-auto" />
+                    <h3 className="text-xl font-semibold text-base-content">{name}</h3>
+                </Tilt>
             </div>
         </div>
+
     );
 };
 
