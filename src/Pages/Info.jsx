@@ -26,18 +26,18 @@ function Info() {
                 <div className="md:container md:mx-auto">
                     <div className="hero-content flex-col lg:flex-row-reverse items-center">
                         {/* Profile image */}
-                        <div className="avatar indicator mb-8 shadow-2xl border lg:mb-0">
+                        <div className="avatar indicator mb-8 lg:mb-0">
                             {/* <span className="indicator-item badge">
                                 <div className="rating">
                                     <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500 glow-star" defaultChecked />
                                 </div>
                             </span> */}
                              <span className="indicator-item badge badge-primary">Developer</span>
-                            <div className="h-64 w-64 lg:h-80 lg:w-80 rounded-lg">
+                            <div className="h-64 w-64 lg:h-80 lg:w-80">
                                 <img
                                     src={profileimage}
                                     alt="Profile"
-                                    className="max-w-full h-auto rounded-lg shadow-2xl" />
+                                    className="max-w-full h-auto border rounded-lg shadow-xl" />
                             </div>
                         </div>
                         {/* Text content */}
