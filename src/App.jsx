@@ -9,6 +9,7 @@ import Skills from './Pages/Skills'
 import FloatingResumeDownload from './Componenets/FloatingResumeDownload'
 import Loader from './Componenets/Loader'
 import Project from './Pages/Project'
+import Resume from './Pages/Resume'
 
 function App() {
 
@@ -16,11 +17,12 @@ function App() {
     <>
       <Loader />
       <Header />
-      {/* <FloatingResumeDownload /> */}
+      <FloatingResumeDownload />
       <Info />
       <Skills />
       <Experience />
       <Project/>
+      <Resume/>
       <Footer />
     </>
   )

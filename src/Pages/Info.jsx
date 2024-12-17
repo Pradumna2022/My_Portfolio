@@ -30,7 +30,7 @@ function Info() {
                                     <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500 glow-star" defaultChecked />
                                 </div>
                             </span> */}
-                             <span className="indicator-item badge badge-primary z-10">Developer</span>
+                             <span className="indicator-item badge badge-primary">Developer</span>
                             <div className="h-64 w-64 lg:h-80 lg:w-80 rounded-lg">
                                 <img
                                     src={profileimage}
