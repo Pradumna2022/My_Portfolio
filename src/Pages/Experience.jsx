@@ -4,7 +4,7 @@ function Experience() {
     return (
         <>
             <div className="md:container md:mx-auto">
-                <h1 className="text-4xl md:text-5xl font-bold text-center my-10">Work Experience</h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-center underline my-10">Work Experience</h1>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li>
                         <div className="timeline-middle">
