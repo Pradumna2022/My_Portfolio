@@ -35,13 +35,17 @@ function Info() {
                             </span> */}
                             <span className="indicator-item badge badge-primary">Developer</span>
                             <Tilt>
-                                <div className="h-64 w-64 lg:h-80 lg:w-80">
+                                <div className="relative h-64 w-64 lg:h-80 lg:w-80">
+                                    <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-gray-300/10 backdrop-blur-xl rounded-lg border border-white/20 shadow-2xl shadow-blue-400/30 z-0"></div>
                                     <img
                                         src={profileimage}
                                         alt="Profile"
-                                        className="max-w-full h-auto border rounded-lg shadow-xl" />
+                                        className="relative max-w-full h-auto border rounded-lg shadow-xl z-10" />
+                                    <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-blue-400/50 to-purple-500/50 blur-md opacity-75 z-0"></div>
                                 </div>
                             </Tilt>
+
+
 
                         </div>
                         {/* Text content */}

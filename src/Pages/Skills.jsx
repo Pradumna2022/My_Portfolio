@@ -37,8 +37,7 @@ const skills = [
 const SkillCard = ({ name, description, image }) => {
     return (
         <div className="relative text-center p-6 rounded-lg bg-base-100 shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
-            {/* Tooltip */}
-            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[90%] max-w-xs p-2 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-normal z-10">
+            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[100%] max-w-xs p-2 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-normal z-10">
                 {description}
             </div>
             <Tilt>
