@@ -1,6 +1,5 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-import Tooltip from '@mui/material/Tooltip';
 import csharp from "../assets/SkillsImages/c-sharp.png";
 import webApi from "../assets/SkillsImages/NET core.png";
 import CoreMvc from "../assets/SkillsImages/DotNetcoreMvc.png";
