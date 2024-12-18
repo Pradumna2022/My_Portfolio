@@ -1,5 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+import Tooltip from '@mui/material/Tooltip';
 import csharp from "../assets/SkillsImages/c-sharp.png";
 import webApi from "../assets/SkillsImages/NET core.png";
 import CoreMvc from "../assets/SkillsImages/DotNetcoreMvc.png";
@@ -36,37 +37,38 @@ const skills = [
 
 const SkillCard = ({ name, description, image }) => {
     return (
-
-        <div className="text-center p-6 rounded-lg bg-base-100 shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
-            <div className="tooltip" data-tip={description}>
-                <Tilt>
-                    {/* Image responsiveness and containment */}
-                    <img src={image} alt={name} className="h-20 w-20 object-contain mb-4 mx-auto" />
-                    <h3 className="text-xl font-semibold text-base-content">{name}</h3>
-                </Tilt>
+        <div className="relative text-center p-6 rounded-lg bg-base-100 shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl group">
+            {/* Tooltip */}
+            <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-[90%] max-w-xs p-2 bg-gray-800 text-white text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-normal z-10">
+                {description}
             </div>
+            <Tilt>
+                <img src={image} alt={name} className="h-20 w-20 object-contain mb-4 mx-auto" />
+                <h3 className="text-xl font-semibold text-base-content">{name}</h3>
+            </Tilt>
         </div>
-
     );
 };
+
+
 
 const Skills = () => {
     return (
         <div className="min-h-screen max-w-full px-4 sm:px-8 overflow-x-hidden overflow-y-auto">
-        <div className="md:container md:mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-center underline my-10">Skills</h1>
-            {/* Grid ensuring 5 items per row */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-                {skills.map((skill, index) => (
-                    <SkillCard
-                        key={index}
-                        name={skill.name}
-                        description={skill.description}
-                        image={skill.image}
-                    />
-                ))}
+            <div className="md:container md:mx-auto">
+                <h1 className="text-4xl md:text-5xl font-bold text-center underline my-10">Skills</h1>
+                {/* Grid ensuring 5 items per row */}
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+                    {skills.map((skill, index) => (
+                        <SkillCard
+                            key={index}
+                            name={skill.name}
+                            description={skill.description}
+                            image={skill.image}
+                        />
+                    ))}
+                </div>
             </div>
-        </div>
         </div>
     );
 };
