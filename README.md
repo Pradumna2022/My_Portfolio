@@ -1,4 +1,4 @@
-# My_Porfolio
+# My_Portfolio
 My portfolio on react js
 
 
