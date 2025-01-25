@@ -52,7 +52,7 @@ const SkillCard = ({ name, description, image }) => {
 
 const Skills = () => {
     return (
-        <div className="min-h-screen max-w-full px-4 sm:px-8 overflow-x-hidden overflow-y-auto">
+        <div className="max-w-full px-4 sm:px-8 overflow-x-hidden overflow-y-auto">
             <div className="md:container md:mx-auto">
                 <h1 className="text-4xl md:text-5xl font-bold text-center underline my-10">Skills</h1>
                 {/* Grid ensuring 5 items per row */}

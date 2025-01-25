@@ -10,6 +10,7 @@ import FloatingResumeDownload from './Componenets/FloatingResumeDownload'
 import Loader from './Componenets/Loader'
 import Project from './Pages/Project'
 import Resume from './Pages/Resume'
+import PortfolioChatbot from './Componenets/PortfolioChatbot'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Project/>
       <Resume/>
       <Footer />
+      <PortfolioChatbot/>
     </>
   )
 }
