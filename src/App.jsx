@@ -11,6 +11,7 @@ import Loader from './Componenets/Loader'
 import Project from './Pages/Project'
 import Resume from './Pages/Resume'
 import PortfolioChatbot from './Componenets/PortfolioChatbot'
+import DocumentGallery from './Componenets/DocumentGallery'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Experience />
       <Project/>
+      <DocumentGallery/>
       <Resume/>
       <Footer />
       <PortfolioChatbot/>
