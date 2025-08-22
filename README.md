@@ -4,12 +4,13 @@ This is a modern, responsive developer portfolio built with React JS, Tailwind C
 
 
 Features
-Light/Dark Mode Toggle: Personalized themes to enhance user experience and accessibility.
 
-Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
+ .Light/Dark Mode Toggle: Personalized themes to enhance user experience and accessibility.
 
-Fast and Efficient: Developed using Vite for lightning-fast build speed and hot module replacement.
+ .Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
 
-Customizable Components: Built with Tailwind CSS and Daisy UI for easy customization and modern UI design.
+ .Fast and Efficient: Developed using Vite for lightning-fast build speed and hot module replacement.
+
+ .Customizable Components: Built with Tailwind CSS and Daisy UI for easy customization and modern UI design.
 
 Explore the code and live demo to see a comprehensive example of a professional React developer portfolio with state-of-the-art web technologies.
