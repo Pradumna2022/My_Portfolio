@@ -1,5 +1,7 @@
 Developer Portfolio - React JS
+
 This is a modern, responsive developer portfolio built with React JS, Tailwind CSS, Daisy UI, and Vite for fast development and optimal performance. This portfolio showcases my skills in front-end development with a clean and professional design, optimized for a seamless user experience across all devices.
+
 
 Features
 Light/Dark Mode Toggle: Personalized themes to enhance user experience and accessibility.
